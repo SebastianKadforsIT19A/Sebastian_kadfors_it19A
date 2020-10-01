@@ -1,31 +1,28 @@
-let tal = 25
 
-// avgöra om talet är jämt eller udda
+/*  ungdom och pensionärer betalar 
+ 500kr på västtrafik
+ övriga betalar: 775kr
+ungdom under 20 år
+pensionär över 65 år 
+ */
 
-
-//modeloperator
-console.log(`${5%2}`)
-
-
-//tal1%2 är 0: jämnt
-//tal1%2 är 1: udda
-
-if (tal1%2  === 0){
-    console.log ("Udda")
-} else { 
-    console.log("Jämnt")
-}
-
-// Upgift
-// 1. lät användaren skriva in ett tal
-// 2. avgör om talet är positivt eller negativt 
-
-let tal1 = prompt("Ange ett tal: ")
-
-if (tal1 > 0 ){
-    console.log("Positivt")
-} else if (tal1 == 0) {
-    console.log("Talet är 0")
+let age = 66
+//  eller: ||
+if (age < 20 || age > 65){
+    console.log("Det kostar 500kr")
 } else {
-    console.log("Negativt")
+    console.log("775kr")
 }
+
+
+/* höjd > 130 och ålder > 10 så får man
+åka balder på liseberg */
+
+let alder = 12
+let hojd = 125
+
+if (alder > 10 && hojd > 130){
+    console.log("Du får åka balder")
+} else {
+    console.log("Åk något annat")
+} 
