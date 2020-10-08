@@ -6,7 +6,9 @@ ungdom under 20 år
 pensionär över 65 år 
  */
 
-let age = 66
+let age= prompt ("Ange din ålder")
+let langd= prompt ("Ange längden")
+
 //  eller: ||
 if (age < 20 || age > 65){
     console.log("Det kostar 500kr")
@@ -21,7 +23,7 @@ if (age < 20 || age > 65){
 let alder = 12
 let hojd = 125
 
-if (alder > 10 && hojd > 130){
+if (age > 11 && hojd > 124){
     console.log("Du får åka balder")
 } else {
     console.log("Åk något annat")
