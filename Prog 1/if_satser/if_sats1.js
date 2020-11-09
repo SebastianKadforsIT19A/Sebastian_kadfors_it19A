@@ -17,13 +17,14 @@ if (age < 20 || age > 65){
 }
 
 
+
 /* höjd > 130 och ålder > 10 så får man
 åka balder på liseberg */
 
 let alder = 12
 let hojd = 125
 
-if (age > 11 && hojd > 124){
+if (age > 11 && hojd > 130){
     console.log("Du får åka balder")
 } else {
     console.log("Åk något annat")
