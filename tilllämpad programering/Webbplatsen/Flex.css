@@ -1,88 +1,120 @@
-p {color: blue;}
+    p {color: blue;
+    float: middle;
+    }
 
-h1 {color:red;}
- 
-h1.solid {border-style: solid;}
+    @media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+        
+    .img-banner {
+        padding: 0px 0px 0px;
+        margin: 30px 30px 30px;
+        
+    }
+      }
 
-
-
-.Nav {
-   margin: 30px 0px 10px;
-    padding: 50px;
-    font-size: 50px;
- 
-    background-color: gray;
-}
-
-
-
-
-.flex-container > div {
-    background-color: red;
-    margin: 50px;
-    padding: 10px;
-    font-size: 50px;
-}
-
-
-.flex-container {
-    display: flex;
-    background-color: DodgerBlue;
-  }
-
-
-
-.header {
-    background-color: yellow;
-    margin: 0px;
-    padding: 20px;
-    font-size: 15px;
-}
-
-.Text {
-    background-color: black;
-    margin: 50px;
-    padding: 50px;
-    font-size: 20px;
-}
-
-
-.footer {
-    background-color: chartreuse;
-    margin: 0px;
-    padding: 50px;
-    font-size: 15px;
-}
-
-.wrapper{
-    width: 100%;
-}
-#Me {
-   
-    float: right;
-}
-
-
-.img-banner {
-    padding: 20px 20px 20px;
+    h1 {color:red;}
     
-}
+    h1.solid {border-style: solid;}
 
 
-.img-info h2 {
-    padding: 30px 30px 20px;
-    font-family: Arial;
-    font-size:50px;
-    color: #111;
-    width: 100%;
-}
 
-.img-info p {
-    padding: 0px 10px 40px;
-    font-family: Arial;
-    font-size:30px;
-    color: #111;
-    width: 100%;
-}
+    .Nav {
+    margin: 30px 0px 10px;
+        padding: 50px;
+        font-size: 30px;
+        
+    
+        background-color: gray;
+    }
+
+    .Gingers {
+        margin: 300px;
+        color: purple;
+    }
+
+    .redheads {
+        margin: 300px;
+        color: purple;
+    }
+
+    .anime {
+        margin: 300px;
+        color: purple;
+    }
+    .start{
+        margin: 300px;
+        color: purple;
+    }   
+
+
+    .flex-container > div {
+        background-color: red;
+        margin: 50px;
+        padding: 10px;
+        font-size: 50px;
+    }
+
+
+    .flex-container {
+        display: flex;
+        background-color: DodgerBlue;
+    }
+
+
+
+    .header {
+        background-color: yellow;
+        margin: 0px;
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .Text {
+        background-color: black;
+        margin: 50px;
+        padding: 50px;
+        font-size: 20px;
+    }
+
+
+    .footer {
+        background-color: chartreuse;
+        margin: 0px;
+        padding: 50px;
+        font-size: 15px;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+    #Me {
+    
+        float: right;
+    }
+
+
+    .img-banner {
+        padding: 20px 20px 20px;
+        
+    }
+
+
+    .img-info h2 {
+        padding: 30px 30px 20px;
+        font-family: Arial;
+        font-size:50px;
+        color: #111;
+        width: 100%;
+    }
+
+    .img-info p {
+        padding: 0px 10px 40px;
+        font-family: Arial;
+        font-size:30px;
+        color: #111;
+        width: 100%;
+    }
 
 
