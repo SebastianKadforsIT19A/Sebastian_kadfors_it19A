@@ -7,10 +7,10 @@ h1.solid {border-style: solid;}
 
 
 .Nav {
-    margin: 50px;
+   margin: 30px 0px 10px;
     padding: 50px;
     font-size: 50px;
-    width: 100%;
+ 
     background-color: gray;
 }
 
