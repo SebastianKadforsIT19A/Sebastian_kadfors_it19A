@@ -1,6 +1,6 @@
 .header { background-color: yellow;
     margin: 0px;
-    padding: 20px 0px 30px;
+    padding: 20px 0px 30px 50px;
     font-size: 15px;
 }
 
@@ -38,7 +38,7 @@
     width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 800px) {
     .img-banner {
     width: 100%;
 
@@ -51,10 +51,7 @@
     padding: 20px 0px 0px;
     
 }
-.img-info h1 {
-    padding: 40px 0px 0px;
-    
-}
+
 .img-info p {
     padding: 20px 0px 0px;
     
@@ -67,15 +64,17 @@
 
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
      .wrapper {
-      
-        float: left;
+      width :1000;
+        
 
     }
 
     .img-info {
-        width: 100%;
+        width: 48%;
+       float: left;
+       
        
     }
 
@@ -83,10 +82,7 @@
         padding: 20px 0px 0px 30px;
     }
 
-    .img-info h1 {
-        padding: 20px 0px 0px 30px;
-       
-    }
+    
 
     .img-info p {
         padding: 20px 0px 0px 30px;
@@ -94,7 +90,7 @@
     }
 
     .img-banner {
-        padding: 100px;
+        padding: 100px 0px 0px;
         width: 50%;
         float:right;
     }
