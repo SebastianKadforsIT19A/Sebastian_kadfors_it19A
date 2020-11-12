@@ -2,9 +2,9 @@
     float: middle;
     }
 
-    @media only screen and (max-width: 700px) {
+    @media only screen and (min-width: 300px) {
         body {
-          background-color: lightblue;
+          background-color: red;
         }
 
         #wrapper{
@@ -13,18 +13,26 @@
         margin: 5px 5px 5px;
         }
 
+       .img-banner {
+           width: 100%;
+       }
        
+       .contet {
+           font-size: 44px;
+           font-family: arial;
+
+           
+       }
         }
 
-        @media only screen and (max-width: 1000px) {
+        @media only screen and (min-width: 1000px) {
 body {
-    background-color: lightgray;
+    background-color: black;
 }
     .img-banner {
        
-        padding: 30px 30px 30px;
-        margin: 30px 30px 30px;
-        
+      
+        width: 50%;
         float: right;
     }
     }
