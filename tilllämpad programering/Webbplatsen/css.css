@@ -1,6 +1,6 @@
 .header { background-color: yellow;
     margin: 0px;
-    padding: 20px 0px 30px 50px;
+    padding: 20px 0px 30px 30px;
     font-size: 15px;
 }
 
@@ -44,7 +44,7 @@
 
 }
 .wrapper {
-    width: 600px;
+    width: 100%;
     margin: 0 auto;
 }
 .img-info h2 {
@@ -79,13 +79,13 @@
     }
 
     .img-info h2 {
-        padding: 20px 0px 0px 30px;
+        padding: 20px 0px 0px 0px;
     }
 
     
 
     .img-info p {
-        padding: 20px 0px 0px 30px;
+        padding: 20px 0px 0px 00px;
         
     }
 
