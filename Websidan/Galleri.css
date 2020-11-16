@@ -8,7 +8,7 @@
 .nav { 
     background-color: lightpink;
     color: lightpink;
-    margin: 20px;
+    margin: 40px;
     padding:20px 20px 10px 30px;
     font-size: 25px;
     font-family: Arial;
@@ -16,18 +16,13 @@
     
 
 }
-.stark {
-    float: right;
-    padding: 50px 50px 50px;
-    width: 50%;
-    size: 100cm;
-}
-.cap {
-    float: left;
-    padding: 20px 20px 20px;
-    width: 50%;
-    margin: 1000px 1000px 1000px 1000px;
-}
+
+
+
+
+
+
+
 .start{
     margin: 10%;
 }
@@ -77,7 +72,7 @@
 }
 .wrapper {
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
 }
 .img-info h2 {
     padding: 20px 10px 0px;
@@ -95,14 +90,41 @@
 
 .nav { 
     
-    font-size: 20px;
+    font-size: 18px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    width: auto;
     
 
 }
 .header { background-color: lightskyblue;
-padding: 20px 0px 30px 30px;
-    font-size: 12px;
+    padding: 20px 0px 30px 30px;
+    font-size: 10px;
 }
+
+.img-stark {
+    width: 200px;
+    height: 150px;
+    float: left;
+    object-fit: scale-down;
+    margin: 10px 30px;
+}
+
+.img-cap {
+    width: 200px;
+    height: 150px;
+    object-fit: scale-down;
+    float: left;
+    margin: 10px 30px;
+}
+.img-hawk {
+    float: bottom;
+   margin: 10px 30px 0px;
+   object-fit: scale-down;
+   width: 200px;
+   height: 150px;
+}
+
 }
 
 @media only screen and (min-width: 800px) {
@@ -130,6 +152,33 @@ padding: 20px 0px 30px 30px;
         padding: 20px 0px 0px 30px;
         
     }
+
+    .img-hawk {
+        margin: 0px 570px 0px;
+        object-fit: scale-down;
+    
+        width: 200px;
+        height: 150px;
+    }
+    
+
+    .img-stark {
+        margin: 10px 10px 10px;
+        height: 150px;
+        width: 200px;
+        object-fit: scale-down;
+        float: right;
+
+    }
+    .img-cap {
+        margin: 10px 10px 10px;
+        height: 150px;
+        width: 200px;
+        object-fit: scale-down;
+        float: left;
+        
+    }
+
 
   
 

@@ -1,0 +1,106 @@
+.header { background-color: lightsalmon;
+    margin: 0px;
+    padding: 20px 0px 30px 50px;
+    font-size: 15px;
+    color: white;
+}
+
+.nav { 
+    background-color: lightgreen;
+    color: lightgreen;
+    margin: 40px 20px 20px;
+    padding:20px 20px 10px 30px;
+    font-size: 25px;
+    font-family: Arial;
+  
+}
+
+
+
+
+
+
+.body  {
+    background-color: lightblue;
+}
+
+.start{
+    margin: 10%;
+}
+.gingers {
+    margin: 10%;
+}
+.games {
+    margin: 10%;
+}
+.anime {
+    margin: 10%;
+}
+
+.wrapper {
+    width :100%;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .nav { 
+        font-size: 18px;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        width: auto;
+      }
+
+      .h3 {
+          
+      }
+
+      .flext {
+          float: right;
+      }
+
+      .boxmo {
+          float: left;
+          margin: 0px 10px;
+        
+      }
+
+    
+}
+@media only screen and (min-width: 800px) {
+
+
+    .h2 {
+        float: right;
+        margin: 30px 300px 10px;
+    }
+    
+    .h3 {
+        float: left;
+        margin: 30px 200px 10px;
+        
+    }
+    
+    .flext {
+       
+        width: 40%;
+        margin: 10px 50px 30px;
+        background-color: black;
+        color: white;
+        padding: 15px;
+        font-family: Arial;
+       
+    }
+    
+    .boxmo {
+        
+        width: 40%;
+        margin: 10px 50px 30px;
+        background-color: white;
+        color: black;
+        padding: 15px;
+        font-family: Arial;
+    }
+
+}
