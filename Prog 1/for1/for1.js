@@ -6,7 +6,7 @@ let summa = 0
 
 for (let i=1; i<=10; i++){
 @@ -20,3 +21,17 @@} for= (let i=0; i<=10; i++) {
-    summa += i
+    summa += 1
 }
 p_summa.innerHTML += `1 + 2 +3 +...+9+10 = ${summa}`
 
