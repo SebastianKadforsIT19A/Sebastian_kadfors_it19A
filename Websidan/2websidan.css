@@ -1,9 +1,33 @@
-.header { background-color: yellow;
+.header { background-color: darkcyan;
     margin: 0px;
     padding: 20px 0px 30px 30px;
     font-size: 15px;
+    color: white;
 }
 
+.nav { 
+    background-color: burlywood;
+    color: burlywood;
+    margin: 20px;
+    padding:20px 20px 10px 30px;
+    font-size: 25px;
+    font-family: Arial;
+  
+    
+
+}
+.start{
+    margin: 10%;
+}
+.gingers {
+    margin: 10%;
+}
+.games {
+    margin: 10%;
+}
+.anime {
+    margin: 10%;
+}
 
 .wrapper {
     width :100%;
@@ -21,7 +45,7 @@
 .img-info h2 {
     padding: 30px 30px 20px;
     font-family: Arial;
-    font-size: 50px;
+    font-size: 40px;
     color: #111;
     line-height: 44px;
 }
@@ -48,7 +72,7 @@
     margin: 0 auto;
 }
 .img-info h2 {
-    padding: 20px 0px 0px;
+    padding: 20px 10px 0px;
     
 }
 
@@ -61,7 +85,16 @@
     padding-top: 30px;
 }
 
+.nav { 
+    
+    font-size: 20px;
+    
 
+}
+.header { background-color: darkcyan;
+padding: 20px 0px 30px 30px;
+    font-size: 12px;
+}
 }
 
 @media only screen and (min-width: 800px) {
@@ -79,7 +112,12 @@
     }
 
     .img-info h2 {
+<<<<<<< HEAD:tilllämpad programering/Webbplatsen/css.css
         padding: 20px 0px 0px 0px;
+=======
+        padding: 20px 0px 0px 30px;
+        font-size: 38px;
+>>>>>>> 2eb2b812bc9801d37eac621a1ddba9895df8a9cf:Websidan/2websidan.css
     }
 
     
@@ -94,5 +132,6 @@
         width: 50%;
         float:right;
     }
+
 
 }
