@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo test</title>
+    <link rel="stylesheet" href="pseudo.css">
+<style>
+
+
+.required::after {
+content: '*';
+}
+
+[data-tooltip] {
+    position: relative;
+}
+
+[data-tooltip]:hover::after {
+    content: 
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: lightgrey;
+}
+</style>
+
+</head>
+<body>
+    <label class="required">Name</label> <br>
+    <input type="text" required>
+    <button data-tooltip="ToolTip">Submit form</button>
+</body>
+</html>
