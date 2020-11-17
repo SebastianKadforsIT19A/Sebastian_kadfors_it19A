@@ -56,11 +56,17 @@
 
       .flext {
           float: right;
+          background-color: black;
+          color: white;
+           padding: 10px 10px 10px;
       }
 
       .boxmo {
           float: left;
           margin: 0px 10px;
+          background-color: white;
+          color: black;
+          padding: 10px 10px 10px;
         
       }
 
@@ -98,7 +104,7 @@
         margin: 10px 50px 30px;
         background-color: white;
         color: black;
-        padding: 13px;
+        padding: 13 px;
         font-family: Arial;
         float: right;
     }
