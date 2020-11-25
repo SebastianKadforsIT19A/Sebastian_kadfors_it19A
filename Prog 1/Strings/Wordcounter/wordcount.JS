@@ -17,7 +17,7 @@ function countWords () {
   
 }
 
-let eraseWordBtn = document.querySelector("#eraseWordBtn")
+let eraseWordBtn = documenqt.uerySelector("#eraseWordBtn")
 let p_eraesWords = document.querySelector("#eraseWords")
 eraseWordBtn.addEventListener("click", eraseWords)
 
