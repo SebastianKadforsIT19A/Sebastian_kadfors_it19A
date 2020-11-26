@@ -33,5 +33,9 @@ input[type="button"] {
     border-radius: 4px;
 }
 
+textArea {
+    width: 50%;
+    margin: 10px 110px 0px;
+}
 
 
