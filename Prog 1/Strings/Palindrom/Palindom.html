@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Palindrom</title>
     <script src="Palindrom.js" defer ></script>
     <link rel="stylesheet" href="Palindrom.css">
 </head>
@@ -12,13 +12,22 @@
         <h1>Palindrom</h1>
         <form>
             <textarea id="textArea" cols="25" rows="5  "></textarea> <br>
-            <input id="countWordBtn" type="button" value="Check">
+            <input id="countWordBtn" type="button" value="Check" oncklick="textArea()" >
            
         </form>
+        <script>
+            function textArea(){
+                var CountWords = document.getElementById("textArea");
+                var name = CountWords.value;
+                console.log(name);
+            }
+
+        </script>
         <p> Du har angivit texten:</p>
         <p> Din text baklänges är:</p>
-        <p id="displayWords"></p>
-      
+        <p id="displaywords"></p>
 
+        
+  
 </body>
 </html>

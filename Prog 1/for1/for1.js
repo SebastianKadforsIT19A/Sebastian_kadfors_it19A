@@ -13,7 +13,7 @@ p_summa.innerHTML += 1 + 2 + 3 +...+ 9 + 10;
 console.log(summa);
 
 for (let i = 0; i < 100; i++) {
-  console.log(${i} i will write all over the wall);
+  console.log(`${i} i will write all over the wall`);
 }
 
 var lektioner = [

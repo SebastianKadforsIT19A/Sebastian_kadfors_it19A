@@ -23,8 +23,5 @@ eraseWordBtn.addEventListener("click", eraseWords)
 
 function eraseWords () {
 console.log("Kör funktionen eraseWords")
-//console.log (text)
-//let eraseWords = text.split (" ")
 textArea.value=""
-
 }

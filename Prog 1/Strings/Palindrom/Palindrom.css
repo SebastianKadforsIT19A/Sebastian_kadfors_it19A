@@ -1,10 +1,12 @@
 h1 {
     color: black;
+    
 }
 
 form {
     background-color:blueviolet;
     padding: 10px;
+    border-radius: 5px;
 }
 body {
     text-align: center;
@@ -12,10 +14,11 @@ body {
 
 #container {
     border: 6px solid black;
-    width: 600px;
+    width: 50%;
     border-radius: 9px;
     margin: 2rem auto;
     background-color: lightpink;
+    
     
 }
 
@@ -24,6 +27,7 @@ form {
     flex-direction: column;
     width: 80%;
     margin: 2rem auto;
+    
 }
 
 input[type="button"] {
@@ -35,7 +39,26 @@ input[type="button"] {
 
 textArea {
     width: 50%;
-    margin: 10px 110px 0px;
+    margin: auto;    
+    border-radius: 6px;
+
+}
+
+@media only screen and (max-width: 800px){
+    textArea {
+        width: 80%;
+      margin: 5px 30px 10px;
+    
+    }
+    #container {
+        width: 100%;
+        padding: 10px 1px 10px 5px;
+    }
+    form {
+        width: 80%;
+        padding: 1px 10px ;
+    }
+   
 }
 
 
