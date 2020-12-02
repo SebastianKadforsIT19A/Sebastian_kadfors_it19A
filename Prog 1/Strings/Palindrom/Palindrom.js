@@ -13,23 +13,30 @@ function countWords(){
   
   
   function palindrom(str){
-      let reversed = str.split("").reverse().join("")
+      let reversed = str.split(",").reverse(  ).join("")
       console.log(reversed)
       if (reversed === str) 
         return true;
   
       return false;
+     
       
-  }
+      let palindrom = document.getElementById("userinput");
+      let pal=userprint.value;
+      document.getElementById("useroutput").innerHTML=pal;
+      let palrev = pal.reverse;
+      document.getElementById("useroutputrev").innerHTML=palrev
+}
 
   console.log(palindrom);
-  console.log (textArea.value);
+ 
 
 
 
-  function printuserinput() {
+function printuserinput() {
     let palindrom = document.getElementById("userinput");
     let pal=userprint.value;
 
     document.getElementById("useroutput").innerHTML=pal;
+
 }

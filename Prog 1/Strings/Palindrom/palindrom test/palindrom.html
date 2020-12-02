@@ -5,18 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script rel="javascript" src="palindrom.js"></script>
+    <link rel="stylesheet" href="palindrom.css">
 </head>
 
 <body>
 
     <div>
         <h1> Palindrom</h1>
+        
         <form>
-            <input type= "text" id="userprint">
+            <textarea type= "text" id="userprint" cols="25" rows="5 "></textarea> <br>
             <input type="button" onclick="(printuserinput())" value="check">
+           
         </form>
     </div>
-    <p id="useroutput"></p>
-<P></P>
+
+
+    <p> Du har angivit texten: <p id="useroutput"></p> </p>  
+    <p> Din text baklänges är:</p>
+    <p id="displaywords"></p>
+
+
+    <pid id="displaypalindrom"></p>
+
+
 </body>
 </html>
