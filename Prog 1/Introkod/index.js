@@ -8,8 +8,8 @@ if (age >= 18) {
 } else {
     console.log("du är barn")
 }
-let text = document.querySelector("#text")
-text.innerText = `${name} är ${age} är gammal`
+let texts = document.querySelector("#text")
+let text = document.querySelector `${name} är ${age} är gammal`
 let multi = document.querySelector("#multiplikation")
 let div = document.querySelector("#division")
 let add = document.querySelector("#addition")

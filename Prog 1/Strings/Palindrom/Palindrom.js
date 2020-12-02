@@ -24,3 +24,12 @@ function countWords(){
 
   console.log(palindrom);
   console.log (textArea.value);
+
+
+
+  function printuserinput() {
+    let palindrom = document.getElementById("userinput");
+    let pal=userprint.value;
+
+    document.getElementById("useroutput").innerHTML=pal;
+}
