@@ -12,29 +12,16 @@
         <h1>Palindrom</h1>
         <form>
             <textarea id="userprint" cols="25" rows="5  "></textarea> <br>
-            <input id="countWordBtn" type="button" value="Check" onclick="(palindrom())">
+            <input id="countWordBtn" type="button" value="Check" >
+            
             
         </form>
-        <script>
-            function textArea(){
-                var CountWords = document.getElementById("textArea");
-                var name = CountWords.value;
-                console.log(name);
 
-            }
-
-        </script>
-        <p> Du har angivit texten:</p>
-        <p> Din text baklänges är:</p>
+        <p> Du har angivit texten:</p> <p id="text1"></p>
+        <p> Din text baklänges är:</p> <p id="text2"></p>
         <p id="displaywords"></p>
 
-        <div>
-            <h1> Palindrom</h1>
-            <form>
-                <input type= "text" id="userprint">
-                <input type="button" onclick="(printuserinput())" value="check">
-            </form>
-        </div>
+
         <p id="useroutput"></p>
 
   

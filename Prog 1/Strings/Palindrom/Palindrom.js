@@ -1,26 +1,38 @@
 let displaywords = document.querySelector("#displaywords");
+let displaywordsBtn = document.querySelector("#countWordBtn");
+displaywordsBtn.addEventListener("click", palindrom);
 
-function countWords(){
+let text1 = document.querySelector("#text1")
+let text2 = document.querySelector("#text2")
 
-    if (palindrom(textArea.value)){
-      p_displaywords.innerHTML = "Det är palindrom"
-    } else {
+
+
   
-      p_displaywords.innerHTML = "det är inte palindrom"
-    }
-  
-  }
-  
-  
-  function palindrom(str){
-      let reversed = str.split(",").reverse(  ).join("")
-      console.log(reversed)
-      if (reversed === str) 
-        return true;
-  
-      return false;
+  function palindrom(){
+      let textArea = document.querySelector("#userprint")
+      let text = textArea.value
+      console.log (text) 
+      let reverse = text.split("").reverse().join("")
+
+      text1.innerHTML=text
+      text2.innerHTML=reverse
+
+      console.log (reverse)
+
+
+      if (text == reverse){
+      console.log ("Palindrom")
+      } else {
+      console.log ("Inte Palindrom")
+      }
+
+
      
-      
+
+
+
+  }
+      /*
       let palindrom = document.getElementById("userinput");
       let pal=userprint.value;
       document.getElementById("useroutput").innerHTML=pal;
@@ -28,7 +40,7 @@ function countWords(){
       document.getElementById("useroutputrev").innerHTML=palrev
 }
 
-  console.log(palindrom);
+  console.log(palindrom);*/
  
 
 
@@ -38,5 +50,13 @@ function printuserinput() {
     let pal=userprint.value;
 
     document.getElementById("useroutput").innerHTML=pal;
+}
+
+   /* function textArea(){
+    var CountWords = document.getElementById("textArea");
+    var name = CountWords.value;
+    console.log(name);
 
 }
+
+</script>*/
