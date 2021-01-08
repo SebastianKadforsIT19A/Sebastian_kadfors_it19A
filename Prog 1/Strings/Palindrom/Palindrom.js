@@ -1,6 +1,8 @@
 let displaywords = document.querySelector("#displaywords");
 let displaywordsBtn = document.querySelector("#countWordBtn");
 displaywordsBtn.addEventListener("click", palindrom);
+displaywordsBtn.addEventListener("click", itpali);
+
 
 let text1 = document.querySelector("#text1")
 let text2 = document.querySelector("#text2")
@@ -19,19 +21,33 @@ let text2 = document.querySelector("#text2")
 
       console.log (reverse)
 
-
       if (text == reverse){
-      console.log ("Palindrom")
-      } else {
-      console.log ("Inte Palindrom")
-      }
-
-
-     
-
-
-
+        console.log ("Palindrom")
+        } else {
+        console.log ("Inte Palindrom")
+        }
+    
   }
+
+
+
+
+
+
+function itpali(){
+
+  let intepali = document.querySelector("#displaypali")
+
+
+let pali = intepali.value
+console.log (pali)
+
+intepali.innerHTML=pali
+
+   
+    }
+
+  
       /*
       let palindrom = document.getElementById("userinput");
       let pal=userprint.value;
