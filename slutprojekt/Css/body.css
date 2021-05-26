@@ -303,9 +303,11 @@ tr:nth-child(even) {
         font-family: arial, sans-serif;
         border-collapse: collapse;
         width: 100%;
+        background-color: rgb(156, 156, 165);
       }
       
       td, th {
+        border: 1px solid #32585a;
         font-size: 20px; 
         text-align: left;
         padding: 8px;
