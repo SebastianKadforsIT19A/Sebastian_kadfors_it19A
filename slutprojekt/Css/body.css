@@ -211,6 +211,27 @@ h2{
 }
 
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+    border: 1px solid #32585a;
+  text-align: left;
+  padding: 8px;
+  font-size: 12px;
+}
+
+
+
+tr:nth-child(even) {
+  background-color: #6b6464;
+}
+
+
+
 
 }
 
@@ -277,5 +298,21 @@ h2{
         
        
     }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        font-size: 20px; 
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #6b6464;
+      }
 
 }
