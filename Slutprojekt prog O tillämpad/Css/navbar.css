@@ -1,0 +1,199 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+
+
+li, a, button {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+
+    padding: 50px 5%;
+    background-color: #24252A;
+    
+}
+
+
+.logo {
+    cursor: pointer;
+    
+}
+
+div{
+    display: flex;
+    justify-content: center;
+ /*margin: 0px 15%;*/ 
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    
+    padding: 7px 20px;
+
+}
+
+.Start {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    background-color: rgba(0,180,169,1);
+    border-radius: 50px;
+    border:none;
+    padding: 5px 25px;
+}
+
+.nav_links li a:hover{
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(10,136,169,0.5);
+}
+
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+    .cta {
+        display: flex;
+        justify-content: center;
+
+        font-size: 12px;
+        font-weight: 500;
+        font-family: "Monserrat", sans-serif;
+        text-decoration: none;
+        color: #edf0f1;
+        margin: 0px 10%;
+       
+    }
+
+
+
+
+
+    .nav_links  {
+        font-family: "Monserrat", sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+        color: #edf0f1;
+        text-decoration: none;
+        margin: 4px 20%;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+     /*margin: 0px 15%;*/ 
+    }
+
+
+    
+}
+
+
+
+
+
+ @media only screen and (min-width: 650px){
+
+.nav_links li {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Start {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Food {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ }
+
+
+
+
+
+@media only screen and (min-width: 950px){
+    
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 5%;
+    background-color: #24252A;
+    
+}
+
+
+.nav_links li {
+display: inline-flex;
+
+
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+}

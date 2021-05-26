@@ -1,0 +1,112 @@
+.header { background-color: lightsalmon;
+    margin: 0px;
+    padding: 20px 0px 30px 50px;
+    font-size: 15px;
+    color: white;
+}
+
+.nav { 
+    background-color: lightgreen;
+    color: lightgreen;
+    margin: 40px 20px 20px;
+    padding:20px 20px 10px 30px;
+    font-size: 25px;
+    font-family: Arial;
+  
+}
+
+
+
+
+
+
+.body  {
+    background-color: lightblue;
+}
+
+.start{
+    margin: 13%;
+}
+.gingers {
+    margin: 13%;
+}
+.games {
+    margin: 13%;
+}
+.anime {
+    margin: 13%;
+}
+
+.wrapper {
+    width :100%;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .nav { 
+        font-size: 18px;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        width: auto;
+      }
+
+      
+
+      .flext {
+          float: right;
+          background-color: black;
+          color: white;
+          padding: 10px 10px 10px;
+      }
+
+      .boxmo {
+          float: left;
+          margin: 0px 10px;
+          background-color: white;
+          color: black;
+          padding: 10px 10px 10px;
+        
+      }
+
+    
+}
+@media only screen and (min-width: 800px) {
+
+
+    .h2 {
+        float: right;
+        margin: 0px 200px 0px;
+    }
+    
+    .h3 {
+        float: left;
+        margin: 0px 200px 0px;
+        
+    }
+    
+    .flext {
+       
+        width: 40%;
+        margin: 10px 50px 30px;
+        background-color: black;
+        color: white;
+        padding: 15px;
+        font-family: Arial;
+        float: left;
+       
+    }
+    
+    .boxmo {
+        
+        width: 40%;
+        margin: 10px 50px 30px;
+        background-color: white;
+        color: black;
+        padding: 13 px;
+        font-family: Arial;
+        float: right;
+    }
+
+}

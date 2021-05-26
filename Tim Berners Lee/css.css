@@ -1,0 +1,171 @@
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 3;
+}
+
+.header { background-color: black;
+    margin: 20px;
+    padding: 20px 0px 30px 50px;
+    font-size: 15px;
+    color: white;
+}
+
+.nav { 
+    background-color: darkgray;
+    margin: 40px;
+    padding: 0px 0px 0px;
+    font-size: 25px;
+    font-family: Arial;
+  
+    
+
+}
+.start{
+    margin: 8%;
+}
+.gingers {
+    margin: 8%;
+}
+.games {
+    margin: 8%;
+}
+.anime {
+    margin: 8%;
+}
+
+.wrapper {
+    width :100%;
+    padding: 100px 0px 0px;
+
+}
+
+.img-banner {
+    width :100%;
+
+}
+
+.img-info {
+    width: 100%;
+    background-color:black;
+    color: white;
+    padding: 75px 10px 100px;
+}
+
+
+.img-info h2 {
+    margin: auto;
+    padding: 0px 30px 20px;
+    font-family: Arial;
+    font-size: 40px;
+    color:white;
+    line-height: 44px;
+}
+
+.img-info p {
+    padding: 10px 30px 20px;
+    font-family: Arial;
+    font-size: 16px;
+    
+    line-height: 24px;
+   
+   
+}
+
+.img-me {
+    width: 100%;
+}
+
+.footer { background-color: cornflowerblue;
+    padding: 20px 20px 30px;
+        font-size: 20px;
+        width: auto;
+        margin-top: 650px;
+    }
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .img-banner {
+    width: 100%;
+
+}
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.img-info h2 {
+    padding: 20px 0px 0px;
+    font-size: 1;
+    
+}
+
+.img-info p {
+    padding: 20px 0px 0px;
+    
+}
+
+.img-me {
+    padding-top: 30px;
+}
+
+.nav { 
+    
+    font-size: 18px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    
+
+}
+.header {
+padding: 20px 0px 30px 30px;
+    font-size: 10px;
+    
+}
+
+.footer {
+    background-color:cornflowerblue;
+    width: auto;
+    margin-top: 100px;
+}
+
+}
+
+@media only screen and (min-width: 800px) {
+     .wrapper {
+      width :1000;
+      
+
+    }
+
+    .img-info {
+        width: 48%;
+      float: left;  
+       
+       
+    }
+
+    .img-info h2 {
+        padding: 20px 0px 0px 30px;
+    }
+
+    
+
+    .img-info p {
+        padding: 20px 0px 0px 30px;
+        
+    }
+
+    .img-banner {
+        padding: 100px 0px 0px;
+        width: 50%;
+        float:right;
+    }
+
+
+}
