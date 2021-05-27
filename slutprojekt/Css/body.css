@@ -167,7 +167,7 @@ h2{
     padding: 10px 10px;
 }
 .Text3{
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .Text4 {
@@ -254,6 +254,7 @@ tr:nth-child(even) {
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
     .Text4{
         display: flex;
